@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B534531D27554EE100D191B1 /* VisionGestureKit.docc in Sources */ = {isa = PBXBuildFile; fileRef = B534531C27554EE100D191B1 /* VisionGestureKit.docc */; };
 		B534531E27554EE100D191B1 /* VisionGestureKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B534531B27554EE100D191B1 /* VisionGestureKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B534532A2755647300D191B1 /* HandGestureDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53453252755647300D191B1 /* HandGestureDetector.swift */; };
+		B534532B2755647300D191B1 /* Hand.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53453272755647300D191B1 /* Hand.swift */; };
+		B534532C2755647300D191B1 /* Finger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53453282755647300D191B1 /* Finger.swift */; };
+		B534532D2755647300D191B1 /* HandGestureDetectorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53453292755647300D191B1 /* HandGestureDetectorDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B534531827554EE100D191B1 /* VisionGestureKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VisionGestureKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B534531B27554EE100D191B1 /* VisionGestureKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VisionGestureKit.h; sourceTree = "<group>"; };
-		B534531C27554EE100D191B1 /* VisionGestureKit.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = VisionGestureKit.docc; sourceTree = "<group>"; };
+		B53453252755647300D191B1 /* HandGestureDetector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandGestureDetector.swift; sourceTree = "<group>"; };
+		B53453272755647300D191B1 /* Hand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hand.swift; sourceTree = "<group>"; };
+		B53453282755647300D191B1 /* Finger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Finger.swift; sourceTree = "<group>"; };
+		B53453292755647300D191B1 /* HandGestureDetectorDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandGestureDetectorDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,10 +53,29 @@
 		B534531A27554EE100D191B1 /* VisionGestureKit */ = {
 			isa = PBXGroup;
 			children = (
+				B53453242755647300D191B1 /* HandGesture */,
 				B534531B27554EE100D191B1 /* VisionGestureKit.h */,
-				B534531C27554EE100D191B1 /* VisionGestureKit.docc */,
 			);
 			path = VisionGestureKit;
+			sourceTree = "<group>";
+		};
+		B53453242755647300D191B1 /* HandGesture */ = {
+			isa = PBXGroup;
+			children = (
+				B53453262755647300D191B1 /* Models */,
+				B53453252755647300D191B1 /* HandGestureDetector.swift */,
+				B53453292755647300D191B1 /* HandGestureDetectorDelegate.swift */,
+			);
+			path = HandGesture;
+			sourceTree = "<group>";
+		};
+		B53453262755647300D191B1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B53453272755647300D191B1 /* Hand.swift */,
+				B53453282755647300D191B1 /* Finger.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,7 +157,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B534531D27554EE100D191B1 /* VisionGestureKit.docc in Sources */,
+				B534532A2755647300D191B1 /* HandGestureDetector.swift in Sources */,
+				B534532C2755647300D191B1 /* Finger.swift in Sources */,
+				B534532B2755647300D191B1 /* Hand.swift in Sources */,
+				B534532D2755647300D191B1 /* HandGestureDetectorDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +302,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +332,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
