@@ -5,11 +5,9 @@ public final class VGKHandGestureDetector: NSObject {
     
     // MARK: - Public properties
     
+    public weak var delegate: VGKHandGestureDetectorDelegate?
     public var frameLayer: CGRect?
     
-    // MARK: - Internal properties
-    
-    weak var delegate: VGKHandGestureDetectorDelegate?
     
     // MARK: - Private properties
     

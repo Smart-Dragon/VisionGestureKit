@@ -1,6 +1,6 @@
 import CoreGraphics
 
-enum VGKHandGuesture: String {
+public enum VGKHandGuesture: String {
     case rock
     case victory
     case fist

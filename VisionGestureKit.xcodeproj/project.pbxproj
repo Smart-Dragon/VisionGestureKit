@@ -8,19 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		B534531E27554EE100D191B1 /* VisionGestureKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B534531B27554EE100D191B1 /* VisionGestureKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B534532A2755647300D191B1 /* HandGestureDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53453252755647300D191B1 /* HandGestureDetector.swift */; };
+		B534532A2755647300D191B1 /* VGKHandGestureDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53453252755647300D191B1 /* VGKHandGestureDetector.swift */; };
 		B534532B2755647300D191B1 /* Hand.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53453272755647300D191B1 /* Hand.swift */; };
 		B534532C2755647300D191B1 /* Finger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53453282755647300D191B1 /* Finger.swift */; };
-		B534532D2755647300D191B1 /* HandGestureDetectorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53453292755647300D191B1 /* HandGestureDetectorDelegate.swift */; };
+		B534532D2755647300D191B1 /* VGKHandGestureDetectorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53453292755647300D191B1 /* VGKHandGestureDetectorDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B534531827554EE100D191B1 /* VisionGestureKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VisionGestureKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B534531B27554EE100D191B1 /* VisionGestureKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VisionGestureKit.h; sourceTree = "<group>"; };
-		B53453252755647300D191B1 /* HandGestureDetector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandGestureDetector.swift; sourceTree = "<group>"; };
+		B53453252755647300D191B1 /* VGKHandGestureDetector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VGKHandGestureDetector.swift; sourceTree = "<group>"; };
 		B53453272755647300D191B1 /* Hand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hand.swift; sourceTree = "<group>"; };
 		B53453282755647300D191B1 /* Finger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Finger.swift; sourceTree = "<group>"; };
-		B53453292755647300D191B1 /* HandGestureDetectorDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandGestureDetectorDelegate.swift; sourceTree = "<group>"; };
+		B53453292755647300D191B1 /* VGKHandGestureDetectorDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VGKHandGestureDetectorDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +63,8 @@
 			isa = PBXGroup;
 			children = (
 				B53453262755647300D191B1 /* Models */,
-				B53453252755647300D191B1 /* HandGestureDetector.swift */,
-				B53453292755647300D191B1 /* HandGestureDetectorDelegate.swift */,
+				B53453252755647300D191B1 /* VGKHandGestureDetector.swift */,
+				B53453292755647300D191B1 /* VGKHandGestureDetectorDelegate.swift */,
 			);
 			path = HandGesture;
 			sourceTree = "<group>";
@@ -157,10 +157,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B534532A2755647300D191B1 /* HandGestureDetector.swift in Sources */,
+				B534532A2755647300D191B1 /* VGKHandGestureDetector.swift in Sources */,
 				B534532C2755647300D191B1 /* Finger.swift in Sources */,
 				B534532B2755647300D191B1 /* Hand.swift in Sources */,
-				B534532D2755647300D191B1 /* HandGestureDetectorDelegate.swift in Sources */,
+				B534532D2755647300D191B1 /* VGKHandGestureDetectorDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

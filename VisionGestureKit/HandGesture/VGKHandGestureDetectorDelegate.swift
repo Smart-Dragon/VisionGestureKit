@@ -1,6 +1,6 @@
 import UIKit
 
-protocol VGKHandGestureDetectorDelegate: AnyObject {
+public protocol VGKHandGestureDetectorDelegate: AnyObject {
     func drawDetectedHand(layer: CAShapeLayer)
     func gestureDetectingFail()
     func gestureDetected(gesture: VGKHandGuesture?)
