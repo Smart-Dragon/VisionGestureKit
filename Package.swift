@@ -1,3 +1,5 @@
+//  swift-tools-version:5.3
+//
 //  Copyright (c) 2021 Smart-Dragon
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
