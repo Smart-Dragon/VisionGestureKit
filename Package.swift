@@ -32,6 +32,6 @@ let package = Package(
         .library(name: "VisionGestureKit", targets: ["VisionGestureKit"]),
     ],
     targets: [
-        .target(name: "VisionGestureKit", dependencies: []),
+        .target(name: "VisionGestureKit", path: "Source", dependencies: []),
     ]
 )
