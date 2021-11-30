@@ -37,7 +37,7 @@
 		B534530E27554EE100D191B1 = {
 			isa = PBXGroup;
 			children = (
-				B534531A27554EE100D191B1 /* VisionGestureKit */,
+				B534531A27554EE100D191B1 /* Source */,
 				B534531927554EE100D191B1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,13 +50,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B534531A27554EE100D191B1 /* VisionGestureKit */ = {
+		B534531A27554EE100D191B1 /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				B53453242755647300D191B1 /* HandGesture */,
 				B534531B27554EE100D191B1 /* VisionGestureKit.h */,
 			);
-			path = VisionGestureKit;
+			path = Source;
 			sourceTree = "<group>";
 		};
 		B53453242755647300D191B1 /* HandGesture */ = {

@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.swift_version = "5.2"
 
   spec.source        = { :git => "https://github.com/Smart-Dragon/VisionGestureKit.git", :tag => "#{spec.version}" }
-  spec.source_files  = "VisionGestureKit/**/*.{h,m,swift}"
+  spec.source_files  = "Source/**/*.{h,m,swift}"
 
   spec.framework     = "UIKit"
   spec.framework     = "Vision"
